@@ -25,9 +25,14 @@ spring:
 
 # Spring Actuator Endpoints are Disabled by Default
 endpoints:
-    enabled: false
+    enabled: true
+    health:
+        sensitive: false
     jmx:
         enabled: true
+management:
+  context_path: /mgmt
+
 
 ---
 grails:
