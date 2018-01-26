@@ -33,6 +33,9 @@ endpoints:
 management:
   context_path: /mgmt
 
+server:
+    contextPath: '/APP-STAGE'
+
 
 ---
 grails:
